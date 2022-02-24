@@ -16,9 +16,12 @@ Usamos:
 <div>   
 
 ## Fazendo build da Imagem 
+ 
+Acesse a pasta do projeto pelo bash e executa: 
+ 
 docker build -t first-spring-docker:0.0.1-SNAPSHOT .
 
----> pode acessar o repositorio docker: https://hub.docker.com/r/diogohumberto/first-spring-docker
+---> podes acessar o repositorio docker com a imagem pronta: https://hub.docker.com/r/diogohumberto/first-spring-docker
 
 
 docker run -p 8085:8080 -d diogohumberto/first-spring-docker:0.0.1-SNAPSHOT
